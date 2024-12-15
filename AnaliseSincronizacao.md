@@ -1,0 +1,3 @@
+# Analise da Sincronização das Threads
+
+1.Nos três exemplos, temos um produtor que coloca números e um consumidor que pega esses números, mas eles funcionam de maneiras diferentes. No primeiro, eles fazem isso sem muita organização, então pode acontecer de o consumidor pegar um número errado porque não espera o produtor terminar. No segundo, tem uma regra que organiza a fila, garantindo que um espere o outro, mas isso pode acabar sendo um pouco lento às vezes. No terceiro, funciona igual ao segundo, mas com mensagens explicando o que está acontecendo, o que ajuda a entender melhor. É como dividir um videogame: no primeiro, todo mundo joga ao mesmo tempo e dá confusão, e nos outros dois, tem alguém organizando quem joga e quando.
